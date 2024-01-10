@@ -46,7 +46,7 @@ If you find our work useful in your research, please consider citing:
 
 ## Out of domain benchmark
 
-### Data manipulation
+### Data Manipulation
 
 | Paper                                             |  Published in | Code/Project |                                  
 |---------------------------------------------------|:-------------:|:------------:|
@@ -67,17 +67,20 @@ If you find our work useful in your research, please consider citing:
 
 
 
-### Pre-training with Generative Objective
-
+### Feature Learning
 | Paper                                             |  Published in | Code/Project |                                  
 |---------------------------------------------------|:-------------:|:------------:|
-|[FLAVA: A Foundational Language And Vision Alignment Model](https://arxiv.org/abs/2112.04482)|CVPR 2022|[Code](https://github.com/facebookresearch/multimodal/tree/main/examples/flava)|
-|[CoCa: Contrastive Captioners are Image-Text Foundation Models](https://arxiv.org/abs/2205.01917)|arXiv 2022|[Code](https://github.com/lucidrains/CoCa-pytorch)|
-|[Too Large; Data Reduction for Vision-Language Pre-Training](https://arxiv.org/abs/2305.20087)|arXiv 2023|[Code](https://github.com/showlab/data-centric.vlp)|
-|[SAM: Segment Anything](https://arxiv.org/abs/2304.02643)|arXiv 2023|[Code](https://github.com/facebookresearch/segment-anything)|
-|[SEEM: Segment Everything Everywhere All at Once](https://arxiv.org/pdf/2304.06718.pdf)|arXiv 2023|[Code](https://github.com/UX-Decoder/Segment-Everything-Everywhere-All-At-Once)|
-|[Semantic-SAM: Segment and Recognize Anything at Any Granularity](https://arxiv.org/pdf/2307.04767.pdf)|arXiv 2023|[Code](https://github.com/UX-Decoder/Semantic-SAM)|
-
+|[Mega-cda: Memory guided attention for category-aware unsupervised domain adaptive object detection](http://openaccess.thecvf.com/content/CVPR2021/html/VS_MeGA-CDA_Memory_Guided_Attention_for_Category-Aware_Unsupervised_Domain_Adaptive_Object_CVPR_2021_paper.html)|CVPR 2021|-|
+|[Domain adaptive faster R-CNN for object detection in the wild](http://openaccess.thecvf.com/content_cvpr_2018/html/Chen_Domain_Adaptive_Faster_CVPR_2018_paper.html)|CVPR 2018|[Code](https://github.com/yuhuayc/da-faster-rcnn)|
+|[Strong-weak distribution alignment for adaptive object detection](http://openaccess.thecvf.com/content_CVPR_2019/html/Saito_Strong-Weak_Distribution_Alignment_for_Adaptive_Object_Detection_CVPR_2019_paper.html)|CVPR 2019|[Code](https://github.com/VisionLearningGroup/DA_Detection)|
+|[Adapting object detectors via selective cross-domain alignment](http://openaccess.thecvf.com/content_CVPR_2019/html/Zhu_Adapting_Object_Detectors_via_Selective_Cross-Domain_Alignment_CVPR_2019_paper.html)|CVPR 2019|[Code](https://github.com/xinge008/SCDA)|
+|[Exploring categorical regularization for domain adaptive object detection](http://openaccess.thecvf.com/content_CVPR_2020/html/Xu_Exploring_Categorical_Regularization_for_Domain_Adaptive_Object_Detection_CVPR_2020_paper.html)|CVPR 2020|[Code](https://github.com/megvii-research/CR-DA-DET)|
+|[Spatial attention pyramid network for unsupervised domain adaptation](https://link.springer.com/chapter/10.1007/978-3-030-58601-0_29)|ECCV 2020|[Code](https://github.com/Shuntw6096/sap-da-detectron2)|
+|[Multi-adversarial faster-rcnn for unrestricted object detection](http://openaccess.thecvf.com/content_ICCV_2019/html/He_Multi-Adversarial_Faster-RCNN_for_Unrestricted_Object_Detection_ICCV_2019_paper.html)|ICCV 2019|[Code](https://github.com/He-Zhenwei/MAF)|
+|[Domain-adaptive object detection via uncertainty- aware distribution alignment](https://dl.acm.org/doi/abs/10.1145/3394171.3413553)|ACMMM 2020|[Code](https://github.com/basiclab/DA-OD-MEAA-PyTorch)|
+|[Deeply aligned adaptation for cross-domain object detection](https://arxiv.org/abs/2004.02093)|arXiv 2020|-|
+|[Domain adaptive object detection via asymmetric tri-way faster-rcnn](https://link.springer.com/chapter/10.1007/978-3-030-58586-0_19)|ECCV 2020|-|
+|[Adaptive object detection with dual multi-label prediction](https://link.springer.com/chapter/10.1007/978-3-030-58604-1_4)|ECCV 2020|-|
 
 
 ### Pre-training with Alignment Objective
