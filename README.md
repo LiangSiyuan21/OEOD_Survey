@@ -44,7 +44,7 @@ If you find our work useful in your research, please consider citing:
   - [Knowledge Distillation for Object Detection](#knowledge-distillation-for-object-detection)
   - [Knowledge Distillation for Semantic Segmentation](#knowledge-distillation-for-semantic-segmentation)
 
-## Out of domain benchmark
+## Out of Domain Benchmark
 
 ### Data Manipulation
 
@@ -113,7 +113,7 @@ If you find our work useful in your research, please consider citing:
 |[Multi-source domain adaptation for object detection](http://openaccess.thecvf.com/content/ICCV2021/html/Yao_Multi-Source_Domain_Adaptation_for_Object_Detection_ICCV_2021_paper.html)|ICCV 2021|[Code](https://github.com/jh-Han777/Multi_Source_Domain_Adaptation_for_Object_Detection)|
 |[2pcnet: Two-phase consistency training for day-to-night unsupervised domain adaptive object detection](http://openaccess.thecvf.com/content/CVPR2023/html/Kennerley_2PCNet_Two-Phase_Consistency_Training_for_Day-to-Night_Unsupervised_Domain_Adaptive_Object_CVPR_2023_paper.html)|CVPR 2023|-|
 
-## Out of category benchmark
+## Out of Category Benchmark
 
 ### Discriminant
 | Paper                                             |  Published in | Code/Project |                                  
@@ -137,30 +137,60 @@ If you find our work useful in your research, please consider citing:
 |[Zero-shot object detection](http://openaccess.thecvf.com/content_ECCV_2018/html/Ankan_Bansal_Zero-Shot_Object_Detection_ECCV_2018_paper.html)|ECCV 2018|-|
 |[Zero-shot object detection with textual descriptions](https://ojs.aaai.org/index.php/AAAI/article/view/4891)|AAAI 2019|-|
 |[Semantics-preserving graph propagation for zero-shot object detection](https://ieeexplore.ieee.org/abstract/document/9153181/)|TIP 2020|-|
-|[Polarity loss: Improving visual-semantic alignment for zero-shot detection](https://ieeexplore.ieee.org/abstract/document/9812473/)|TNNLS 2022||
-|[From node to graph: Joint reasoning on visualsemantic relational graph for zero-shot detection](http://openaccess.thecvf.com/content/WACV2022/html/Nie_From_Node_To_Graph_Joint_Reasoning_on_Visual-Semantic_Relational_Graph_WACV_2022_paper.html)|WACV 2022|[Code](https://github.com/witnessai/GRAN)|
+|[Polarity loss: Improving visual_semantic alignment for zero-shot detection](https://ieeexplore.ieee.org/abstract/document/9812473/)|TNNLS 2022||
+|[From node to graph: Joint reasoning on visual_semantic relational graph for zero-shot detection](http://openaccess.thecvf.com/content/WACV2022/html/Nie_From_Node_To_Graph_Joint_Reasoning_on_Visual_Semantic_Relational_Graph_WACV_2022_paper.html)|WACV 2022|[Code](https://github.com/witnessai/GRAN)|
 |[Semantics-guided contrastive network for zero-shot object detection](https://ieeexplore.ieee.org/abstract/document/9669022/)|TPAMI 2022|-|
 |[Robust region feature synthesizer for zero-shot object detection](http://openaccess.thecvf.com/content/CVPR2022/html/Huang_Robust_Region_Feature_Synthesizer_for_Zero-Shot_Object_Detection_CVPR_2022_paper.html)|CVPR 2022|-|
 |[Generative multi-label zero-shot learning](https://ieeexplore.ieee.org/abstract/document/10184028/)|TPAMI 2023|[Code](https://github.com/akshitac8/Generative_MLZSL)|
 |[Zero-shot camouflaged object detection](https://ieeexplore.ieee.org/abstract/document/10234216/)|TIP 2023|-|
 
+### Arbitrary Information
+| Paper                                             |  Published in | Code/Project |                                  
+|---------------------------------------------------|:-------------:|:------------:|
+|[Open-vocabulary object detection using captions](https://openaccess.thecvf.com/content/CVPR2021/html/Zareian_Open-Vocabulary_Object_Detection_Using_Captions_CVPR_2021_paper.html?ref=https://githubhelp.com)|CVPR 2021|-|
+|[Open-vocabulary object detection via vision and language knowledge distillation](https://arxiv.org/abs/2104.13921)|ICLR 2022|-|
+|[Open-vocabulary one-stage detection with hierarchical visual-language knowledge distillation](http://openaccess.thecvf.com/content/CVPR2022/html/Ma_Open-Vocabulary_One-Stage_Detection_With_Hierarchical_Visual-Language_Knowledge_Distillation_CVPR_2022_paper.html)|CVPR 2022|-|
+|[F-vlm: Open-vocabulary object detection upon frozen vision and language models](https://arxiv.org/abs/2209.15639)|ICLR 2023|-|
+|[Open Vocabulary Object Detection with Pseudo Bounding-Box Labels](https://link.springer.com/chapter/10.1007/978-3-031-20080-9_16)|ECCV 2022|[Code](https://github.com/salesforce/PB-OVD)|
+|[PromptDet: Towards Open-vocabulary Detection using Uncurated Images](https://link.springer.com/chapter/10.1007/978-3-031-20077-9_41)|ECCV 2022|[Code](https://github.com/fcjian/PromptDet)|
+|[Grounded language-image pre-training](https://openaccess.thecvf.com/content/CVPR2022/html/Li_Grounded_Language-Image_Pre-Training_CVPR_2022_paper.html?ref=blog.roboflow.com)|CVPR 2022|[Code](https://github.com/microsoft/GLIP)|
+|[Regionclip: Region-based language-image pretraining](http://openaccess.thecvf.com/content/CVPR2022/html/Zhong_RegionCLIP_Region-Based_Language-Image_Pretraining_CVPR_2022_paper.html)|CVPR 2022|[Code](https://github.com/microsoft/RegionCLIP)|
+|[Detecting everything in the open world: Towards universal object detection](http://openaccess.thecvf.com/content/CVPR2023/html/Wang_Detecting_Everything_in_the_Open_World_Towards_Universal_Object_Detection_CVPR_2023_paper.html)|CVPR 2023|[Code](https://github.com/zhenyuw16/UniDetector)|
+|[Region-Aware Pretraining for Open-Vocabulary Object Detection with Vision Transformers](http://openaccess.thecvf.com/content/CVPR2023/html/Kim_Region-Aware_Pretraining_for_Open-Vocabulary_Object_Detection_With_Vision_Transformers_CVPR_2023_paper.html)|CVPR 2023|[Code](https://github.com/mcahny/rovit)|
+|[DetCLIP: Dictionary-enriched visual-concept paralleled pre-training for open-world detection](https://proceedings.neurips.cc/paper_files/paper/2022/hash/3ba960559212691be13fa81d9e5e0047-Abstract-Conference.html)|NIPS 2022|-|
+|[DetCLIPv2: Scalable open-vocabulary object detection pre-training via word-region alignment](http://openaccess.thecvf.com/content/CVPR2023/html/Yao_DetCLIPv2_Scalable_Open-Vocabulary_Object_Detection_Pre-Training_via_Word-Region_Alignment_CVPR_2023_paper.html)|CVPR 2023|-|
 
+## Malicious Data Benchmark
 
+### Adversarial Training
 
+| Paper                                             |  Published in | Code/Project |                                  
+|---------------------------------------------------|:-------------:|:------------:|
+|[Using feature alignment can improve clean average precision and adversarial robustness in object detection](https://ieeexplore.ieee.org/abstract/document/9506689/)|ICIP 2021|-|
+|[On the importance of backbone to the adversarial robustness of object detectors](https://arxiv.org/abs/2305.17438)|arXiv 2023|-|
+|[Adversarial attack and defense of yolo detectors in autonomous driving scenarios](https://ieeexplore.ieee.org/abstract/document/9827222/)|IV 2022|-|
+|[Towards adversarially robust object detection](http://openaccess.thecvf.com/content_ICCV_2019/html/Zhang_Towards_Adversarially_Robust_Object_Detection_ICCV_2019_paper.html)|ICCV 2019|-|
+|[Robust and accurate object detection via adversarial learning](http://openaccess.thecvf.com/content/CVPR2021/html/Chen_Robust_and_Accurate_Object_Detection_via_Adversarial_Learning_CVPR_2021_paper.html)|CVPR 2021|-|
+|[Robust and accurate object detection via selfknowledge distillation](https://ieeexplore.ieee.org/abstract/document/9898031/)|ICIP 2022|-|
+|[Adversarially-aware robust object detector](https://link.springer.com/chapter/10.1007/978-3-031-20077-9_18)|ECCV 2022|[Code](https://github.com/IrisRainbowNeko/RobustDet)|
+|[Adversarial intensity awareness for robust object detection](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4279328)|SSRN 2022|-|
+|[Towards efficient adversarial training on vision transformers](https://link.springer.com/chapter/10.1007/978-3-031-19778-9_18)|ECCV 2022|-|
+|[Fast is better than free: Revisiting adversarial training](https://arxiv.org/abs/2001.03994)|arXiv 2020|-|
+|[Class-aware robust adversarial training for object detection](https://openaccess.thecvf.com/content/CVPR2021/html/Chen_Class-Aware_Robust_Adversarial_Training_for_Object_Detection_CVPR_2021_paper.html?ref=https://githubhelp.com)|CVPR 2021|-|
 
+### Model Robust Inference
 
-
-
-
-
-
-
-
-
-
-
-
-
+| Paper                                             |  Published in | Code/Project |                                  
+|---------------------------------------------------|:-------------:|:------------:|
+|[A study of the effect of jpg compression on adversarial images](https://arxiv.org/abs/1608.00853)|arXiv 2016|-|
+|[Adversarial pixel masking: A defense against physical attacks for pre-trained object detectors](https://dl.acm.org/doi/abs/10.1145/3474085.3475338)|ACMMM 2021|-|
+|[Local gradients smoothing: Defense against localized adversarial attacks](https://ieeexplore.ieee.org/abstract/document/8658401/)|WACV 2019|[Code](https://github.com/icyham/local_gradients_smoothing)|
+|[Feature squeezing: Detecting adversarial examples in deep neural networks](https://arxiv.org/abs/1704.01155)|arXiv 2017|-|
+|[Detection as regression: Certified object detection with median smoothing](https://proceedings.neurips.cc/paper/2020/hash/0dd1bc593a91620daecf7723d2235624-Abstract.html)|NIPS 2020|-|
+|[Detectorguard: Provably securing object detectors against localized patch hiding attacks](https://dl.acm.org/doi/abs/10.1145/3460120.3484757)|CCS 2021|[Code](https://github.com/inspire-group/DetectorGuard)|
+|[Real-time robust video object detection system against physical-world adversarial attacks](https://ieeexplore.ieee.org/abstract/document/10220201/)|TCAD 2023|-|
+|[Segment and complete: Defending object detectors against adversarial patch attacks with robust patch detection](http://openaccess.thecvf.com/content/CVPR2022/html/Liu_Segment_and_Complete_Defending_Object_Detectors_Against_Adversarial_Patch_Attacks_CVPR_2022_paper.html)|CVPR 2022|-|
+|[Defending from physically-realizable adversarial attacks through internal over-activation analysis](https://ojs.aaai.org/index.php/AAAI/article/view/26758)|AAAI 2023|-|
 
 
 
