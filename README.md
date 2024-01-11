@@ -77,13 +77,13 @@ If you find our work useful in your research, please consider citing:
 |[Exploring categorical regularization for domain adaptive object detection](http://openaccess.thecvf.com/content_CVPR_2020/html/Xu_Exploring_Categorical_Regularization_for_Domain_Adaptive_Object_Detection_CVPR_2020_paper.html)|CVPR 2020|[Code](https://github.com/megvii-research/CR-DA-DET)|
 |[Spatial attention pyramid network for unsupervised domain adaptation](https://link.springer.com/chapter/10.1007/978-3-030-58601-0_29)|ECCV 2020|[Code](https://github.com/Shuntw6096/sap-da-detectron2)|
 |[Multi-adversarial faster-rcnn for unrestricted object detection](http://openaccess.thecvf.com/content_ICCV_2019/html/He_Multi-Adversarial_Faster-RCNN_for_Unrestricted_Object_Detection_ICCV_2019_paper.html)|ICCV 2019|[Code](https://github.com/He-Zhenwei/MAF)|
-|[Domain-adaptive object detection via uncertainty- aware distribution alignment](https://dl.acm.org/doi/abs/10.1145/3394171.3413553)|ACMMM 2020|[Code](https://github.com/basiclab/DA-OD-MEAA-PyTorch)|
+|[Domain-adaptive object detection via uncertainty- aware distribution alignment](https://dl.acm.org/doi/abs/10.1145/3394171.3413553)|MM 2020|[Code](https://github.com/basiclab/DA-OD-MEAA-PyTorch)|
 |[Deeply aligned adaptation for cross-domain object detection](https://arxiv.org/abs/2004.02093)|arXiv 2020|-|
 |[Domain adaptive object detection via asymmetric tri-way faster-rcnn](https://link.springer.com/chapter/10.1007/978-3-030-58586-0_19)|ECCV 2020|-|
 |[Adaptive object detection with dual multi-label prediction](https://link.springer.com/chapter/10.1007/978-3-030-58604-1_4)|ECCV 2020|-|
 |[Seeking similarities over differences:Similarity-based domain alignment for adaptive object detection](http://openaccess.thecvf.com/content/ICCV2021/html/Rezaeianaran_Seeking_Similarities_Over_Differences_Similarity-Based_Domain_Alignment_for_Adaptive_Object_ICCV_2021_paper.html)|ICCV 2021|[Code](https://github.com/frezaeix/VISGA_Public)|
 |[Decoupled adaptation for cross-domain object detection](https://arxiv.org/abs/2110.02578)|ICLR 2022|[Code](https://github.com/thuml/Decoupled-Adaptation-for-Cross-Domain-Object-Detection)|
-|[Exploring sequence feature alignment for domain adaptive detection transformers](https://dl.acm.org/doi/abs/10.1145/3474085.3475317)|ACMMM 2021|[Code](https://github.com/encounter1997/SFA)|
+|[Exploring sequence feature alignment for domain adaptive detection transformers](https://dl.acm.org/doi/abs/10.1145/3474085.3475317)|MM 2021|[Code](https://github.com/encounter1997/SFA)|
 |[Informative consistent correspondence mining for cross-domain weakly supervised object detection](http://openaccess.thecvf.com/content/CVPR2021/html/Hou_Informative_and_Consistent_Correspondence_Mining_for_Cross-Domain_Weakly_Supervised_Object_CVPR_2021_paper.html)|CVPR 2021|-|
 |[Task-specific inconsistency alignment for domain adaptive object detection](http://openaccess.thecvf.com/content/CVPR2022/html/Zhao_Task-Specific_Inconsistency_Alignment_for_Domain_Adaptive_Object_Detection_CVPR_2022_paper.html)|CVPR 2022|[Code](https://github.com/MCG-NJU/TIA)|
 |[Cross-domain detection via graph-induced prototype alignment](http://openaccess.thecvf.com/content_CVPR_2020/html/Xu_Cross-Domain_Detection_via_Graph-Induced_Prototype_Alignment_CVPR_2020_paper.html)|CVPR 2020|[Code](https://github.com/ChrisAllenMing/GPA-detection)|
@@ -127,7 +127,7 @@ If you find our work useful in your research, please consider citing:
 |[Open-set semi-supervised object detection](https://link.springer.com/chapter/10.1007/978-3-031-20056-4_9)|ECCV 2022|-|
 |[Proposalclip: unsupervised open-category object proposal generation via exploiting clip cues](http://openaccess.thecvf.com/content/CVPR2022/html/Shi_ProposalCLIP_Unsupervised_Open-Category_Object_Proposal_Generation_via_Exploiting_CLIP_Cues_CVPR_2022_paper.html)|CVPR 2022|-|
 |[Uc-owod: Unknown-classified open world object detection](https://link.springer.com/chapter/10.1007/978-3-031-20080-9_12)|ECCV 2022|-|
-|[Hsic-based moving weight averaging for few-shot open-set object detection](https://dl.acm.org/doi/abs/10.1145/3581783.3611850)|ACMMM 2023|-|
+|[Hsic-based moving weight averaging for few-shot open-set object detection](https://dl.acm.org/doi/abs/10.1145/3581783.3611850)|MM 2023|-|
 
 ### Side Information
 | Paper                                             |  Published in | Code/Project |                                  
@@ -183,7 +183,7 @@ If you find our work useful in your research, please consider citing:
 | Paper                                             |  Published in | Code/Project |                                  
 |---------------------------------------------------|:-------------:|:------------:|
 |[A study of the effect of jpg compression on adversarial images](https://arxiv.org/abs/1608.00853)|arXiv 2016|-|
-|[Adversarial pixel masking: A defense against physical attacks for pre-trained object detectors](https://dl.acm.org/doi/abs/10.1145/3474085.3475338)|ACMMM 2021|-|
+|[Adversarial pixel masking: A defense against physical attacks for pre-trained object detectors](https://dl.acm.org/doi/abs/10.1145/3474085.3475338)|MM 2021|-|
 |[Local gradients smoothing: Defense against localized adversarial attacks](https://ieeexplore.ieee.org/abstract/document/8658401/)|WACV 2019|[Code](https://github.com/icyham/local_gradients_smoothing)|
 |[Feature squeezing: Detecting adversarial examples in deep neural networks](https://arxiv.org/abs/1704.01155)|arXiv 2017|-|
 |[Detection as regression: Certified object detection with median smoothing](https://proceedings.neurips.cc/paper/2020/hash/0dd1bc593a91620daecf7723d2235624-Abstract.html)|NIPS 2020|-|
