@@ -104,12 +104,12 @@ If you find our work useful in your research, please consider citing:
 |[Category dictionary guided unsupervised domain adaptation for object detection](https://ojs.aaai.org/index.php/AAAI/article/view/16290)|AAAI 2021|[Code](https://github.com/merlinarer/CDG)|
 |[SSAL: synergizing between self-training adversarial learning for domain adaptive object detection](https://proceedings.neurips.cc/paper/2021/hash/c0cccc24dd23ded67404f5e511c342b0-Abstract.html)|NIPS 2021|-|
 |[Multi-view domain adaptive object detection on camera networks](https://yshu.org/paper/aaai23mvdaod.pdf)|AAAI 2023|-|
-|[Exploring object relation in mean teacher for crossdomain detection](http://openaccess.thecvf.com/content_CVPR_2019/html/Cai_Exploring_Object_Relation_in_Mean_Teacher_for_Cross-Domain_Detection_CVPR_2019_paper.html)|CVPR 2019|[Code](https://github.com/caiqi/mean-teacher-cross-domain-detection)|
+|[Exploring object relation in mean teacher for cross domain detection](http://openaccess.thecvf.com/content_CVPR_2019/html/Cai_Exploring_Object_Relation_in_Mean_Teacher_for_Cross-Domain_Detection_CVPR_2019_paper.html)|CVPR 2019|[Code](https://github.com/caiqi/mean-teacher-cross-domain-detection)|
 |[Unbiased teacher for semi-supervised object detection](https://arxiv.org/abs/2102.09480)|ICLR 2021|[Code](https://github.com/facebookresearch/unbiased-teacher)|
 |[Unbiased mean teacher for cross-domain object detection](http://openaccess.thecvf.com/content/CVPR2021/html/Deng_Unbiased_Mean_Teacher_for_Cross-Domain_Object_Detection_CVPR_2021_paper.html)|CVPR 2021|[Code](https://github.com/kinredon/umt)|
 |[Cross domain object detection by target-perceived dual branch distillation](http://openaccess.thecvf.com/content/CVPR2022/html/He_Cross_Domain_Object_Detection_by_Target-Perceived_Dual_Branch_Distillation_CVPR_2022_paper.html)|CVPR 2022|-|
 |[Cross-domain adaptive teacher for object detection](http://openaccess.thecvf.com/content/CVPR2022/html/Li_Cross-Domain_Adaptive_Teacher_for_Object_Detection_CVPR_2022_paper.html)|CVPR 2022|[Code](https://github.com/facebookresearch/adaptive_teacher)|
-|[Target-relevant knowledge preservation for multisource domain adaptive object detection](http://openaccess.thecvf.com/content/CVPR2022/html/Wu_Target-Relevant_Knowledge_Preservation_for_Multi-Source_Domain_Adaptive_Object_Detection_CVPR_2022_paper.html)|CVPR 2022|-|
+|[Target-relevant knowledge preservation for multi-source domain adaptive object detection](http://openaccess.thecvf.com/content/CVPR2022/html/Wu_Target-Relevant_Knowledge_Preservation_for_Multi-Source_Domain_Adaptive_Object_Detection_CVPR_2022_paper.html)|CVPR 2022|-|
 |[Multi-source domain adaptation for object detection](http://openaccess.thecvf.com/content/ICCV2021/html/Yao_Multi-Source_Domain_Adaptation_for_Object_Detection_ICCV_2021_paper.html)|ICCV 2021|[Code](https://github.com/jh-Han777/Multi_Source_Domain_Adaptation_for_Object_Detection)|
 |[2pcnet: Two-phase consistency training for day-to-night unsupervised domain adaptive object detection](http://openaccess.thecvf.com/content/CVPR2023/html/Kennerley_2PCNet_Two-Phase_Consistency_Training_for_Day-to-Night_Unsupervised_Domain_Adaptive_Object_CVPR_2023_paper.html)|CVPR 2023|-|
 
@@ -157,7 +157,7 @@ If you find our work useful in your research, please consider citing:
 |[Regionclip: Region-based language-image pretraining](http://openaccess.thecvf.com/content/CVPR2022/html/Zhong_RegionCLIP_Region-Based_Language-Image_Pretraining_CVPR_2022_paper.html)|CVPR 2022|[Code](https://github.com/microsoft/RegionCLIP)|
 |[Detecting everything in the open world: Towards universal object detection](http://openaccess.thecvf.com/content/CVPR2023/html/Wang_Detecting_Everything_in_the_Open_World_Towards_Universal_Object_Detection_CVPR_2023_paper.html)|CVPR 2023|[Code](https://github.com/zhenyuw16/UniDetector)|
 |[Region-Aware Pretraining for Open-Vocabulary Object Detection with Vision Transformers](http://openaccess.thecvf.com/content/CVPR2023/html/Kim_Region-Aware_Pretraining_for_Open-Vocabulary_Object_Detection_With_Vision_Transformers_CVPR_2023_paper.html)|CVPR 2023|[Code](https://github.com/mcahny/rovit)|
-|[DetCLIP: Dictionary-enriched visual-concept paralleled pre-training for open-world detection](https://proceedings.neurips.cc/paper_files/paper/2022/hash/3ba960559212691be13fa81d9e5e0047-Abstract-Conference.html)|NIPS 2022|-|
+|[DetCLIP: Dictionary-enriched visual-concept paralleled pre-training for open-world detection](https://proceedings.neurips.cc/paper_files/paper/2022/hash/3ba960559212691be13fa81d9e5e0047-Abstract-Conference.html)|NIPS 2022|-|
 |[DetCLIPv2: Scalable open-vocabulary object detection pre-training via word-region alignment](http://openaccess.thecvf.com/content/CVPR2023/html/Yao_DetCLIPv2_Scalable_Open-Vocabulary_Object_Detection_Pre-Training_via_Word-Region_Alignment_CVPR_2023_paper.html)|CVPR 2023|-|
 
 ## Malicious Data Benchmark
@@ -171,7 +171,7 @@ If you find our work useful in your research, please consider citing:
 |[Adversarial attack and defense of yolo detectors in autonomous driving scenarios](https://ieeexplore.ieee.org/abstract/document/9827222/)|IV 2022|-|
 |[Towards adversarially robust object detection](http://openaccess.thecvf.com/content_ICCV_2019/html/Zhang_Towards_Adversarially_Robust_Object_Detection_ICCV_2019_paper.html)|ICCV 2019|-|
 |[Robust and accurate object detection via adversarial learning](http://openaccess.thecvf.com/content/CVPR2021/html/Chen_Robust_and_Accurate_Object_Detection_via_Adversarial_Learning_CVPR_2021_paper.html)|CVPR 2021|-|
-|[Robust and accurate object detection via selfknowledge distillation](https://ieeexplore.ieee.org/abstract/document/9898031/)|ICIP 2022|-|
+|[Robust and accurate object detection via self knowledge distillation](https://ieeexplore.ieee.org/abstract/document/9898031/)|ICIP 2022|-|
 |[Adversarially-aware robust object detector](https://link.springer.com/chapter/10.1007/978-3-031-20077-9_18)|ECCV 2022|[Code](https://github.com/IrisRainbowNeko/RobustDet)|
 |[Adversarial intensity awareness for robust object detection](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4279328)|SSRN 2022|-|
 |[Towards efficient adversarial training on vision transformers](https://link.springer.com/chapter/10.1007/978-3-031-19778-9_18)|ECCV 2022|-|
@@ -190,7 +190,7 @@ If you find our work useful in your research, please consider citing:
 |[Detectorguard: Provably securing object detectors against localized patch hiding attacks](https://dl.acm.org/doi/abs/10.1145/3460120.3484757)|CCS 2021|[Code](https://github.com/inspire-group/DetectorGuard)|
 |[Real-time robust video object detection system against physical-world adversarial attacks](https://ieeexplore.ieee.org/abstract/document/10220201/)|TCAD 2023|-|
 |[Segment and complete: Defending object detectors against adversarial patch attacks with robust patch detection](http://openaccess.thecvf.com/content/CVPR2022/html/Liu_Segment_and_Complete_Defending_Object_Detectors_Against_Adversarial_Patch_Attacks_CVPR_2022_paper.html)|CVPR 2022|-|
-|[Defending from physically-realizable adversarial attacks through internal over-activation analysis](https://ojs.aaai.org/index.php/AAAI/article/view/26758)|AAAI 2023|-|
+|[Defending from physically-realizable adversarial attacks through internal over-activation analysis](https://ojs.aaai.org/index.php/AAAI/article/view/26758)|AAAI 2023|-|
 
 
 
