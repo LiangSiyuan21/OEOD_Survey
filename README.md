@@ -81,154 +81,85 @@ If you find our work useful in your research, please consider citing:
 |[Deeply aligned adaptation for cross-domain object detection](https://arxiv.org/abs/2004.02093)|arXiv 2020|-|
 |[Domain adaptive object detection via asymmetric tri-way faster-rcnn](https://link.springer.com/chapter/10.1007/978-3-030-58586-0_19)|ECCV 2020|-|
 |[Adaptive object detection with dual multi-label prediction](https://link.springer.com/chapter/10.1007/978-3-030-58604-1_4)|ECCV 2020|-|
+|[Seeking similarities over differences:Similarity-based domain alignment for adaptive object detection](http://openaccess.thecvf.com/content/ICCV2021/html/Rezaeianaran_Seeking_Similarities_Over_Differences_Similarity-Based_Domain_Alignment_for_Adaptive_Object_ICCV_2021_paper.html)|ICCV 2021|[Code](https://github.com/frezaeix/VISGA_Public)|
+|[Decoupled adaptation for cross-domain object detection](https://arxiv.org/abs/2110.02578)|ICLR 2022|[Code](https://github.com/thuml/Decoupled-Adaptation-for-Cross-Domain-Object-Detection)|
+|[Exploring sequence feature alignment for domain adaptive detection transformers](https://dl.acm.org/doi/abs/10.1145/3474085.3475317)|ACMMM 2021|[Code](https://github.com/encounter1997/SFA)|
+|[Informative consistent correspondence mining for cross-domain weakly supervised object detection](http://openaccess.thecvf.com/content/CVPR2021/html/Hou_Informative_and_Consistent_Correspondence_Mining_for_Cross-Domain_Weakly_Supervised_Object_CVPR_2021_paper.html)|CVPR 2021|-|
+|[Task-specific inconsistency alignment for domain adaptive object detection](http://openaccess.thecvf.com/content/CVPR2022/html/Zhao_Task-Specific_Inconsistency_Alignment_for_Domain_Adaptive_Object_Detection_CVPR_2022_paper.html)|CVPR 2022|[Code](https://github.com/MCG-NJU/TIA)|
+|[Cross-domain detection via graph-induced prototype alignment](http://openaccess.thecvf.com/content_CVPR_2020/html/Xu_Cross-Domain_Detection_via_Graph-Induced_Prototype_Alignment_CVPR_2020_paper.html)|CVPR 2020|[Code](https://github.com/ChrisAllenMing/GPA-detection)|
+|[Cross-domain object detection through coarse-to-fine feature adaptation](http://openaccess.thecvf.com/content_CVPR_2020/html/Zheng_Cross-domain_Object_Detection_through_Coarse-to-Fine_Feature_Adaptation_CVPR_2020_paper.html)|CVPR 2020|-|
+|[RPN prototype alignment for domain adaptive object detector](http://openaccess.thecvf.com/content/CVPR2021/html/Zhang_RPN_Prototype_Alignment_for_Domain_Adaptive_Object_Detector_CVPR_2021_paper.html)|CVPR 2021|-|
+|[Adapting object detectors with conditional domain normalization](https://link.springer.com/chapter/10.1007/978-3-030-58621-8_24)|ECCV 2020|[Code](https://github.com/zhoushiqi47/CDN)|
+|[Vector-decomposed disentanglement for domain-invariant object detection](http://openaccess.thecvf.com/content/ICCV2021/html/Wu_Vector-Decomposed_Disentanglement_for_Domain-Invariant_Object_Detection_ICCV_2021_paper.html)|ICCV 2021|[Code](https://github.com/AmingWu/VDD-DAOD)|
+|[Instance-invariant domain adaptive object detection via progressive disentanglement](https://ieeexplore.ieee.org/abstract/document/9362301/)|TPAMI 2022|[Code](https://github.com/AmingWu/IIOD)|
+|[Single-domain generalized object detection in urban scene via cyclic-disentangled self-distillation](http://openaccess.thecvf.com/content/CVPR2022/html/Wu_Single-Domain_Generalized_Object_Detection_in_Urban_Scene_via_Cyclic-Disentangled_Self-Distillation_CVPR_2022_paper.html)|CVPR 2022|-|
 
-
-### Pre-training with Alignment Objective
-
+### Optimization Strategy
 | Paper                                             |  Published in | Code/Project |                                  
 |---------------------------------------------------|:-------------:|:------------:|
-|[GLIP: Grounded Language-Image Pre-training](https://arxiv.org/abs/2112.03857)|CVPR 2022|[Code](https://github.com/microsoft/GLIP)|
-|[DetCLIP: Dictionary-Enriched Visual-Concept Paralleled Pre-training for Open-world Detection](https://arxiv.org/abs/2209.09407)|NeurIPS 2022|-|
-|[nCLIP: Non-Contrastive Learning Meets Language-Image Pre-Training](https://arxiv.org/abs/2210.09304)|CVPR 2023|[Code](https://github.com/shallowtoil/xclip)|
+|[Automatic adaptation of object detectors to new domains using self-training](http://openaccess.thecvf.com/content_CVPR_2019/html/RoyChowdhury_Automatic_Adaptation_of_Object_Detectors_to_New_Domains_Using_Self-Training_CVPR_2019_paper.html)|CVPR 2019|-|
+|[A robust learning approach to domain adaptive object detection](http://openaccess.thecvf.com/content_ICCV_2019/html/Khodabandeh_A_Robust_Learning_Approach_to_Domain_Adaptive_Object_Detection_ICCV_2019_paper.html)|ICCV 2019|[Code](https://github.com/b02202050/robust_domain_adaptation)|
+|[Self-training adversarial background regularization for unsupervised domain adaptive one-stage object detection](http://openaccess.thecvf.com/content_ICCV_2019/html/Kim_Self-Training_and_Adversarial_Background_Regularization_for_Unsupervised_Domain_Adaptive_One-Stage_ICCV_2019_paper.html)|ICCV 2019|-|
+|[A free lunch for unsupervised domain adaptive object detection without source data](https://ojs.aaai.org/index.php/AAAI/article/view/17029)|AAAI 2021|-|
+|[Category dictionary guided unsupervised domain adaptation for object detection](https://ojs.aaai.org/index.php/AAAI/article/view/16290)|AAAI 2021|[Code](https://github.com/merlinarer/CDG)|
+|[SSAL: synergizing between self-training adversarial learning for domain adaptive object detection](https://proceedings.neurips.cc/paper/2021/hash/c0cccc24dd23ded67404f5e511c342b0-Abstract.html)|NIPS 2021|-|
+|[Multi-view domain adaptive object detection on camera networks](https://yshu.org/paper/aaai23mvdaod.pdf)|AAAI 2023|-|
+|[Exploring object relation in mean teacher for crossdomain detection](http://openaccess.thecvf.com/content_CVPR_2019/html/Cai_Exploring_Object_Relation_in_Mean_Teacher_for_Cross-Domain_Detection_CVPR_2019_paper.html)|CVPR 2019|[Code](https://github.com/caiqi/mean-teacher-cross-domain-detection)|
+|[Unbiased teacher for semi-supervised object detection](https://arxiv.org/abs/2102.09480)|ICLR 2021|[Code](https://github.com/facebookresearch/unbiased-teacher)|
+|[Unbiased mean teacher for cross-domain object detection](http://openaccess.thecvf.com/content/CVPR2021/html/Deng_Unbiased_Mean_Teacher_for_Cross-Domain_Object_Detection_CVPR_2021_paper.html)|CVPR 2021|[Code](https://github.com/kinredon/umt)|
+|[Cross domain object detection by target-perceived dual branch distillation](http://openaccess.thecvf.com/content/CVPR2022/html/He_Cross_Domain_Object_Detection_by_Target-Perceived_Dual_Branch_Distillation_CVPR_2022_paper.html)|CVPR 2022|-|
+|[Cross-domain adaptive teacher for object detection](http://openaccess.thecvf.com/content/CVPR2022/html/Li_Cross-Domain_Adaptive_Teacher_for_Object_Detection_CVPR_2022_paper.html)|CVPR 2022|[Code](https://github.com/facebookresearch/adaptive_teacher)|
+|[Target-relevant knowledge preservation for multisource domain adaptive object detection](http://openaccess.thecvf.com/content/CVPR2022/html/Wu_Target-Relevant_Knowledge_Preservation_for_Multi-Source_Domain_Adaptive_Object_Detection_CVPR_2022_paper.html)|CVPR 2022|-|
+|[Multi-source domain adaptation for object detection](http://openaccess.thecvf.com/content/ICCV2021/html/Yao_Multi-Source_Domain_Adaptation_for_Object_Detection_ICCV_2021_paper.html)|ICCV 2021|[Code](https://github.com/jh-Han777/Multi_Source_Domain_Adaptation_for_Object_Detection)|
+|[2pcnet: Two-phase consistency training for day-to-night unsupervised domain adaptive object detection](http://openaccess.thecvf.com/content/CVPR2023/html/Kennerley_2PCNet_Two-Phase_Consistency_Training_for_Day-to-Night_Unsupervised_Domain_Adaptive_Object_CVPR_2023_paper.html)|CVPR 2023|-|
 
-## Vision-Language Model Transfer Learning Methods
+## Out of category benchmark
 
-### Transfer with Prompt Tuning
-
-#### Transfer with Text Prompt Tuning
-
+### Discriminant
 | Paper                                             |  Published in | Code/Project |                                  
 |---------------------------------------------------|:-------------:|:------------:|
-|[CoOp: Learning to Prompt for Vision-Language Models](https://arxiv.org/abs/2109.01134)|IJCV 2022|[Code](https://github.com/KaiyangZhou/CoOp)|
-|[CoCoOp: Conditional Prompt Learning for Vision-Language Models](https://arxiv.org/abs/2203.05557)|CVPR 2022|[Code](https://github.com/KaiyangZhou/CoOp)|
-|[ProDA: Prompt Distribution Learning](https://arxiv.org/abs/2205.03340)|CVPR 2022|-|
-|[DenseClip: Language-Guided Dense Prediction with Context-Aware Prompting](https://arxiv.org/abs/2112.01518)|CVPR 2022|[Code](https://github.com/raoyongming/DenseCLIP)|
-|[TPT: Test-time prompt tuning for zero-shot generalization in vision-language models](https://arxiv.org/abs/2209.07511)|NeurIPS 2022|[Code](https://github.com/azshue/TPT)|
-|[DualCoOp: Fast Adaptation to Multi-Label Recognition with Limited Annotations](https://arxiv.org/abs/2206.09541)|NeurIPS 2022|[Code](https://github.com/sunxm2357/DualCoOp)|
-|[CPL: Counterfactual Prompt Learning for Vision and Language Models](https://arxiv.org/abs/2210.10362)|EMNLP 2022|[Code](https://github.com/eric-ai-lab/CPL)|
-|[Bayesian Prompt Learning for Image-Language Model Generalization](https://arxiv.org/abs/2210.02390v2)|arXiv 2022|-|
-|[UPL: Unsupervised Prompt Learning for Vision-Language Models](https://arxiv.org/abs/2204.03649)|arXiv 2022|[Code](https://github.com/tonyhuang2022/UPL)|
-|[ProGrad: Prompt-aligned Gradient for Prompt Tuning](https://arxiv.org/abs/2205.14865)|arXiv 2022|[Code](https://github.com/BeierZhu/Prompt-align)|
-|[SoftCPT: Prompt Tuning with Soft Context Sharing for Vision-Language Models](https://arxiv.org/abs/2208.13474)|arXiv 2022|[Code](https://github.com/kding1225/softcpt)|
-|[SubPT: Understanding and Mitigating Overfitting in Prompt Tuning for Vision-Language Models](https://arxiv.org/abs/2211.02219)|TCSVT 2023|[Code](https://github.com/machengcheng2016/Subspace-Prompt-Learning)|
-|[LASP: Text-to-Text Optimization for Language-Aware Soft Prompting of Vision & Language Models](https://arxiv.org/abs/2210.01115)|CVPR 2023|[Code](https://www.adrianbulat.com/lasp)|
-|[PLOT: Prompt Learning with Optimal Transport for Vision-Language Models](https://arxiv.org/abs/2210.01253)|ICLR 2023|[Code](https://github.com/CHENGY12/PLOT)|
-|[LMPT: Prompt Tuning with Class-Specific Embedding Loss for Long-tailed Multi-Label Visual Recognition](https://arxiv.org/abs/2305.04536)|arXiv 2023|[Code](https://github.com/richard-peng-xia/LMPT)|
-|[Texts as Images in Prompt Tuning for Multi-Label Image Recognition](https://arxiv.org/abs/2211.12739)|CVPR 2023|[code](https://github.com/guozix/TaI-DPT)
-|[Visual-Language Prompt Tuning with Knowledge-guided Context Optimization](https://arxiv.org/abs/2303.13283)|CVPR 2023|[Code](https://github.com/htyao89/KgCoOp)|
-|[Learning to Name Classes for Vision and Language Models](https://arxiv.org/abs/2304.01830v1)|CVPR 2023|-|
-|[CuPL: What does a platypus look like? Generating customized prompts for zero-shot image classification](https://arxiv.org/abs/2209.03320)|ICCV 2023|[Code](https://github.com/sarahpratt/CuPL)|
-|[ProTeCt: Prompt Tuning for Hierarchical Consistency](https://arxiv.org/abs/2306.02240)|arXiv 2023|-|
-|[Enhancing CLIP with CLIP: Exploring Pseudolabeling for Limited-Label Prompt Tuning](https://arxiv.org/abs/2306.01669)|arXiv 2023|[Code](http://github.com/BatsResearch/menghini-enhanceCLIPwithCLIP-code)|
+|[Expanding low-density latent regions for open-set object detection](http://openaccess.thecvf.com/content/CVPR2022/html/Han_Expanding_Low-Density_Latent_Regions_for_Open-Set_Object_Detection_CVPR_2022_paper.html)|CVPR 2022|[Code](https://github.com/csuhan/opendet2)|
+|[Dropout sampling for robust object detection in open-set conditions](https://ieeexplore.ieee.org/abstract/document/8460700/)|ICRA 2018|-|
+|[Evaluating merging strategies for sampling-based uncertainty techniques in object detection](https://ieeexplore.ieee.org/abstract/document/8793821/)|ICRA 2019|-|
+|[Vos: Learning what you don’t know by virtual outlier synthesis](https://arxiv.org/abs/2202.01197)|ICLR 2022|[Code](https://github.com/deeplearning-wisc/vos)|
+|[Towards open world object detection](http://openaccess.thecvf.com/content/CVPR2021/html/Joseph_Towards_Open_World_Object_Detection_CVPR_2021_paper.html)|CVPR 2021|[Code](https://github.com/AIX-Coast-Defense-PIL/Towards-Open-World-Object-Detection)|
+|[Unknown-aware object detection: Learning what you don’t know from videos in the wild](http://openaccess.thecvf.com/content/CVPR2022/html/Du_Unknown-Aware_Object_Detection_Learning_What_You_Dont_Know_From_Videos_CVPR_2022_paper.html)|CVPR 2022|[Code](https://github.com/deeplearning-wisc/stud)|
+|[Open-set semi-supervised object detection](https://link.springer.com/chapter/10.1007/978-3-031-20056-4_9)|ECCV 2022|-|
+|[Proposalclip: unsupervised open-category object proposal generation via exploiting clip cues](http://openaccess.thecvf.com/content/CVPR2022/html/Shi_ProposalCLIP_Unsupervised_Open-Category_Object_Proposal_Generation_via_Exploiting_CLIP_Cues_CVPR_2022_paper.html)|CVPR 2022|-|
+|[Uc-owod: Unknown-classified open world object detection](https://link.springer.com/chapter/10.1007/978-3-031-20080-9_12)|ECCV 2022|-|
+|[Hsic-based moving weight averaging for few-shot open-set object detection](https://dl.acm.org/doi/abs/10.1145/3581783.3611850)|ACMMM 2023|-|
 
-
-#### Transfer with Visual Prompt Tuning
-
+### Side Information
 | Paper                                             |  Published in | Code/Project |                                  
 |---------------------------------------------------|:-------------:|:------------:|
-|[Exploring Visual Prompts for Adapting Large-Scale Models](https://arxiv.org/abs/2203.17274)|arXiv 2022|[Code](https://github.com/hjbahng/visual_prompting)|
-|[Retrieval-Enhanced Visual Prompt Learning for Few-shot Classification](https://arxiv.org/abs/2306.02243)|arXiv 2023|-|
-|[Fine-Grained Visual Prompting](https://arxiv.org/abs/2306.04356)|arXiv 2023|-|
-
-#### Transfer with Text and Visual Prompt Tuning
-
-| Paper                                             |  Published in | Code/Project |                                  
-|---------------------------------------------------|:-------------:|:------------:|
-|[UPT: Unified Vision and Language Prompt Learning](https://arxiv.org/abs/2210.07225)|arXiv 2022|[Code](https://github.com/yuhangzang/upt)|
-|[MVLPT: Multitask Vision-Language Prompt Tuning](https://arxiv.org/abs/2211.11720)|arXiv 2022|[Code](https://github.com/facebookresearch/vilbert-multi-task)|
-|[CAVPT: Dual Modality Prompt Tuning for Vision-Language Pre-Trained Model](https://arxiv.org/abs/2208.08340)|arXiv 2022|[Code](https://github.com/fanrena/DPT)|
-|[MaPLe: Multi-modal Prompt Learning](https://arxiv.org/abs/2210.03117)|CVPR 2023|[Code](https://github.com/muzairkhattak/multimodal-prompt-learning)|
-
-### Transfer with Feature Adapter
-
-| Paper                                             |  Published in | Code/Project |                                  
-|---------------------------------------------------|:-------------:|:------------:|
-|[Tip-Adapte: Training-free Adaption of CLIP for Few-shot Classification](https://arxiv.org/abs/2207.09519)|ECCV 2022|[Code](https://github.com/gaopengcuhk/Tip-Adapter)|
-|[SVL-Adapter: Self-Supervised Adapter for Vision-Language Pretrained Models](https://arxiv.org/abs/2210.03794)|BMVC 2022|[Code](https://github.com/omipan/svl_adapter)|
-|[Clip-Adapter: Better Vision-Language Models with Feature Adapters](https://arxiv.org/abs/2110.04544)|arXiv 2021|[Code](https://github.com/gaopengcuhk/CLIP-Adapter)|
-|[SuS-X: Training-Free Name-Only Transfer of Vision-Language Models](https://arxiv.org/abs/2211.16198)|ICCV 2023|[Code](https://github.com/vishaal27/SuS-X)|
-|[CLIPPR: Improving Zero-Shot Models with Label Distribution Priors](https://arxiv.org/abs/2212.00784)|arXiv 2022|[Code](https://github.com/jonkahana/CLIPPR)|
-|[SgVA-CLIP: Semantic-guided Visual Adapting of Vision-Language Models for Few-shot Image Classification](https://arxiv.org/abs/2211.16191)|arXiv 2022|-|
-|[SAM-Adapter: Adapting SAM in Underperformed Scenes: Camouflage, Shadow, Medical Image Segmentation, and More](https://arxiv.org/abs/2304.09148)|arXiv 2023|[Code](http://tianrun-chen.github.io/SAM-Adaptor/)|
-|[Segment Anything in High Quality](https://arxiv.org/abs/2306.01567)|arXiv 2023|[Code](https://github.com/SysCV/SAM-HQ)|
-|[HGCLIP: Exploring Vision-Language Models with Graph Representations for Hierarchical Understanding](https://arxiv.org/abs/2311.14064)|arXiv 2023|[Code](https://github.com/richard-peng-xia/HGCLIP)|
-|[CLAP: Contrastive Learning with Augmented Prompts for Robustness on Pretrained Vision-Language Models](https://arxiv.org/abs/2311.16445)|arXiv 2023|-|
-
-### Transfer with Other Methods
-
-| Paper                                             |  Published in | Code/Project |                                  
-|---------------------------------------------------|:-------------:|:------------:|
-|[VT-Clip: Enhancing Vision-Language Models with Visual-guided Texts](https://arxiv.org/abs/2112.02399)|arXiv 2021|-|
-|[Wise-FT: Robust fine-tuning of zero-shot models](https://arxiv.org/abs/2109.01903)|CVPR 2022|[Code](https://github.com/mlfoundations/wise-ft)|
-|[MaskCLIP: Extract Free Dense Labels from CLIP](https://arxiv.org/abs/2112.01071)|ECCV 2022|[Code](https://github.com/chongzhou96/MaskCLIP)|
-|[MUST: Masked Unsupervised Self-training for Label-free Image Classification](https://arxiv.org/abs/2206.02967)|ICLR 2023| [Code](https://github.com/salesforce/MUST)|
-|[CALIP: Zero-Shot Enhancement of CLIP with Parameter-free Attention](https://arxiv.org/abs/2209.14169)|AAAI 2023|[Code](https://github.com/ziyuguo99/calip)|
-|[Semantic Prompt for Few-Shot Image Recognition](https://arxiv.org/abs/2303.14123v1)|CVPR 2023|-|
-|[Prompt, Generate, then Cache: Cascade of Foundation Models makes Strong Few-shot Learners](https://arxiv.org/abs/2303.02151)|CVPR 2023|[Code](https://github.com/ZrrSkywalker/CaFo)|
-|[Task Residual for Tuning Vision-Language Models](https://arxiv.org/abs/2211.10277)|CVPR 2023|[Code](https://github.com/geekyutao/TaskRes)|
-|[Deeply Coupled Cross-Modal Prompt Learning](https://arxiv.org/abs/2305.17903)|ACL 2023|[Code](https://github.com/GingL/CMPA)|
-|[Prompt Ensemble Self-training for Open-Vocabulary Domain Adaptation](https://arxiv.org/abs/2306.16658)|arXiv 2023|-|
-|[Personalize Segment Anything Model with One Shot](https://arxiv.org/abs/2305.03048)|arXiv 2023|[Code](https://github.com/ZrrSkywalker/Personalize-SAM)|
-|[Chils: Zero-shot image classification with hierarchical label sets](https://proceedings.mlr.press/v202/novack23a/novack23a.pdf)|ICML 2023|[Code](https://github.com/acmi-lab/CHILS)|
-|[Improving Zero-shot Generalization and Robustness of Multi-modal Models](https://openaccess.thecvf.com/content/CVPR2023/papers/Ge_Improving_Zero-Shot_Generalization_and_Robustness_of_Multi-Modal_Models_CVPR_2023_paper.pdf)|CVPR 2023|[Code](https://github.com/gyhandy/Hierarchy-CLIP)|
-|[Exploiting Category Names for Few-Shot Classification with Vision-Language Models](https://openreview.net/pdf?id=w25Q9Ttjrs)|ICLR W 2023|-|
-|[Beyond Sole Strength: Customized Ensembles for Generalized Vision-Language Models](https://arxiv.org/abs/2311.17091)|arXiv 2023|[Code](https://github.com/zhiheLu/Ensemble_VLM)|
+|[Zero shot detection](https://ieeexplore.ieee.org/abstract/document/8642945/)|TCSVT 2019|[Code](https://github.com/nasir6/zero_shot_detection)|
+|[Zero-shot object detection with attributes-based category similarity](https://ieeexplore.ieee.org/abstract/document/9043901/)|TCSVT 2020|-|
+|[Zero-shot object detection](http://openaccess.thecvf.com/content_ECCV_2018/html/Ankan_Bansal_Zero-Shot_Object_Detection_ECCV_2018_paper.html)|ECCV 2018|-|
+|[Zero-shot object detection with textual descriptions](https://ojs.aaai.org/index.php/AAAI/article/view/4891)|AAAI 2019|-|
+|[Semantics-preserving graph propagation for zero-shot object detection](https://ieeexplore.ieee.org/abstract/document/9153181/)|TIP 2020|-|
+|[Polarity loss: Improving visual-semantic alignment for zero-shot detection](https://ieeexplore.ieee.org/abstract/document/9812473/)|TNNLS 2022||
+|[From node to graph: Joint reasoning on visualsemantic relational graph for zero-shot detection](http://openaccess.thecvf.com/content/WACV2022/html/Nie_From_Node_To_Graph_Joint_Reasoning_on_Visual-Semantic_Relational_Graph_WACV_2022_paper.html)|WACV 2022|[Code](https://github.com/witnessai/GRAN)|
+|[Semantics-guided contrastive network for zero-shot object detection](https://ieeexplore.ieee.org/abstract/document/9669022/)|TPAMI 2022|-|
+|[Robust region feature synthesizer for zero-shot object detection](http://openaccess.thecvf.com/content/CVPR2022/html/Huang_Robust_Region_Feature_Synthesizer_for_Zero-Shot_Object_Detection_CVPR_2022_paper.html)|CVPR 2022|-|
+|[Generative multi-label zero-shot learning](https://ieeexplore.ieee.org/abstract/document/10184028/)|TPAMI 2023|[Code](https://github.com/akshitac8/Generative_MLZSL)|
+|[Zero-shot camouflaged object detection](https://ieeexplore.ieee.org/abstract/document/10234216/)|TIP 2023|-|
 
 
-## Vision-Language Model Knowledge Distillation Methods
-
-### Knowledge Distillation for Object Detection
-| Paper                                             |  Published in | Code/Project |                                  
-|---------------------------------------------------|:-------------:|:------------:|
-|[ViLD: Open-vocabulary Object Detection via Vision and Language Knowledge Distillation](https://arxiv.org/abs/2104.13921)|ICLR 2022|[Code](https://github.com/tensorflow/tpu/tree/master/models/official/detection/projects/vild)|
-|[DetPro: Learning to Prompt for Open-Vocabulary Object Detection with Vision-Language Model](https://arxiv.org/abs/2203.14940)|CVPR 2022|[Code](https://github.com/dyabel/detpro)|
-|[XPM: Open-Vocabulary Instance Segmentation via Robust Cross-Modal Pseudo-Labeling](https://arxiv.org/abs/2111.12698)|CVPR 2022|[Code](https://github.com/hbdat/cvpr22_cross_modal_pseudo_labeling)|
-|[Bridging the Gap between Object and Image-level Representations for Open-Vocabulary Detection](https://arxiv.org/abs/2207.03482)|NeurIPS 2022|[Code](https://github.com/hanoonaR/object-centric-ovd)|
-|[PromptDet: Towards Open-vocabulary Detection using Uncurated Images](https://arxiv.org/abs/2203.16513)|ECCV 2022|[Code](https://github.com/fcjian/PromptDet)|
-|[PB-OVD: Open Vocabulary Object Detection with Pseudo Bounding-Box Labels](https://arxiv.org/abs/2111.09452)|ECCV 2022|[Code](https://github.com/salesforce/PB-OVD)|
-|[OV-DETR: Open-Vocabulary DETR with Conditional Matching](https://arxiv.org/abs/2203.11876)|ECCV 2022|[Code](https://github.com/yuhangzang/OV-DETR)|
-|[Detic: Detecting Twenty-thousand Classes using Image-level Supervision](https://arxiv.org/abs/2201.02605)|ECCV 2022|[Code](https://github.com/facebookresearch/Detic)|
-|[OWL-ViT: Simple Open-Vocabulary Object Detection with Vision Transformers](https://arxiv.org/abs/2205.06230)|ECCV 2022|[Code](https://github.com/google-research/scenic/tree/main/scenic/projects/owl_vit)|
-|[VL-PLM: Exploiting Unlabeled Data with Vision and Language Models for Object Detection](https://arxiv.org/abs/2207.08954)|ECCV 2022|[Code](https://github.com/xiaofeng94/VL-PLM)|
-|[ZSD-YOLO: Zero-shot Object Detection Through Vision-Language Embedding Alignment](https://arxiv.org/abs/2109.12066)|arXiv 2022|[Code](https://github.com/Johnathan-Xie/ZSD-YOLO)|
-|[HierKD: Open-Vocabulary One-Stage Detection with Hierarchical Visual-Language Knowledge Distillation](https://arxiv.org/abs/2203.10593)|arXiv 2022|[Code](https://github.com/mengqiDyangge/HierKD)|
-|[VLDet: Learning Object-Language Alignments for Open-Vocabulary Object Detection](https://arxiv.org/abs/2211.14843)|ICLR 2023|[Code](https://github.com/clin1223/VLDet)|
-|[F-VLM: Open-Vocabulary Object Detection upon Frozen Vision and Language Models](https://arxiv.org/abs/2209.15639)|ICLR 2023|[Code](https://github.com/google-research/google-research/tree/master/fvlm)|
-|[CondHead: Learning to Detect and Segment for Open Vocabulary Object Detection](https://arxiv.org/abs/2212.12130)|CVPR 2023|-|
-|[Aligning Bag of Regions for Open-Vocabulary Object Detection](https://arxiv.org/abs/2302.13996)|CVPR 2023|[Code](https://github.com/wusize/ovdet)|
-|[Region-Aware Pretraining for Open-Vocabulary Object Detection with Vision Transformers](https://arxiv.org/abs/2305.07011v1)|CVPR 2023|[Code](https://github.com/mcahny/rovit)|
-|[Object-Aware Distillation Pyramid for Open-Vocabulary Object Detection](https://arxiv.org/abs/2303.05892)|CVPR 2023|[Code](https://github.com/LutingWang/OADP)|
-|[CORA: Adapting CLIP for Open-Vocabulary Detection with Region Prompting and Anchor Pre-Matching](https://arxiv.org/abs/2303.13076v1)|CVPR 2023|[Code](https://github.com/tgxs002/CORA)|
-|[DetCLIPv2: Scalable Open-Vocabulary Object Detection Pre-training via Word-Region Alignment](https://arxiv.org/abs/2304.04514v1)|CVPR 2023|-|
-|[Detecting Everything in the Open World: Towards Universal Object Detection](https://arxiv.org/abs/2303.11749)|CVPR 2023|[Code](https://github.com/zhenyuw16/UniDetector)|
-|[CapDet: Unifying Dense Captioning and Open-World Detection Pretraining](https://arxiv.org/abs/2303.02489)|CVPR 2023|-|
-|[Contextual Object Detection with Multimodal Large Language Models](https://arxiv.org/abs/2305.18279)|arXiv 2023|[Code](https://github.com/yuhangzang/ContextDET)|
-|[Building One-class Detector for Anything: Open-vocabulary Zero-shot OOD Detection Using Text-image Models](https://arxiv.org/abs/2305.17207)|arXiv 2023|[Code](https://github.com/gyhandy/One-Class-Anything)|
 
 
-### Knowledge Distillation for Semantic Segmentation
 
-| Paper                                             |  Published in | Code/Project |                                  
-|---------------------------------------------------|:-------------:|:------------:|
-|[SSIW: Semantic Segmentation In-the-Wild Without Seeing Any Segmentation Examples](https://arxiv.org/abs/2112.03185)|arXiv 2021|-|
-|[ReCo: Retrieve and Co-segment for Zero-shot Transfer](https://arxiv.org/abs/2206.07045)|NeurIPS 2022|[Code](https://github.com/NoelShin/reco)|
-|[CLIMS: Cross Language Image Matching for Weakly Supervised Semantic Segmentation](https://arxiv.org/abs/2203.02668)|CVPR 2022|[Code](https://github.com/CVI-SZU/CLIMS)|
-|[CLIPSeg: Image Segmentation Using Text and Image Prompts](https://arxiv.org/abs/2112.10003)|CVPR 2022|[Code](https://github.com/timojl/clipseg)|
-|[ZegFormer: Decoupling Zero-Shot Semantic Segmentation](https://arxiv.org/abs/2112.07910)|CVPR 2022|[Code](https://github.com/dingjiansw101/ZegFormer)|
-|[LSeg: Language-driven Semantic Segmentation](https://arxiv.org/abs/2201.03546)|ICLR 2022|[Code](https://github.com/isl-org/lang-seg)|
-|[ZSSeg: A Simple Baseline for Open-Vocabulary Semantic Segmentation with Pre-trained Vision-language Model](https://arxiv.org/abs/2112.14757)|ECCV 2022|[Code](https://github.com/MendelXu/zsseg.baseline)|
-|[OpenSeg: Scaling Open-Vocabulary Image Segmentation with Image-Level Labels](https://arxiv.org/abs/2112.12143)|ECCV 2022|[Code](https://github.com/tensorflow/tpu/tree/641c1ac6e26ed788327b973582cbfa297d7d31e7/models/official/detection/projects/openseg)|
-|[Fusioner: Open-vocabulary Semantic Segmentation with Frozen Vision-Language Models](https://arxiv.org/abs/2210.15138)|BMVC 2022|[Code](https://github.com/chaofanma/Fusioner)|
-|[OVSeg: Open-Vocabulary Semantic Segmentation with Mask-adapted CLIP](https://arxiv.org/abs/2210.04150)|CVPR 2023|[Code](https://github.com/facebookresearch/ov-seg)|
-|[ZegCLIP: Towards Adapting CLIP for Zero-shot Semantic Segmentation](https://arxiv.org/abs/2212.03588)|CVPR 2023|[Code](https://github.com/ZiqinZhou66/ZegCLIP)|
-|[CLIP is Also an Efficient Segmenter: A Text-Driven Approach for Weakly Supervised Semantic Segmentation](https://arxiv.org/abs/2212.09506)|CVPR 2023|[Code](https://github.com/linyq2117/CLIP-ES)|
-|[FreeSeg: Unified, Universal and Open-Vocabulary Image Segmentation](https://arxiv.org/abs/2303.17225v1)|CVPR 2023|[Code](https://freeseg.github.io/)|
-|[Mask-free OVIS: Open-Vocabulary Instance Segmentation without Manual Mask Annotations](https://arxiv.org/abs/2303.16891v1)|CVPR 2023|[Code](https://vibashan.github.io/ovis-web/)|
-|[Exploring Open-Vocabulary Semantic Segmentation without Human Labels](https://arxiv.org/abs/2306.00450)|arXiv 2023|-|
-|[OpenVIS: Open-vocabulary Video Instance Segmentation](https://arxiv.org/abs/2305.16835)|arXiv 2023|-|
-|[Segment Anything is A Good Pseudo-label Generator for Weakly Supervised Semantic Segmentation](https://arxiv.org/abs/2305.01275)|arXiv 2023|-|
-|[Segment Anything Model (SAM) Enhanced Pseudo Labels for Weakly Supervised Semantic Segmentation](https://arxiv.org/abs/2305.05803)|arXiv 2023|[Code](https://github.com/cskyl/SAM_WSSS)|
-|[Plug-and-Play, Dense-Label-Free Extraction of Open-Vocabulary Semantic Segmentation from Vision-Language Models](https://arxiv.org/abs/2311.17095)|arXiv 2023|-|
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
