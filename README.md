@@ -195,6 +195,74 @@ If you find our work useful in your research, please consider citing:
 
 
 
+## Incremental Data Benchmark
+
+### Replay Based
+
+| Paper                                             |  Published in | Code/Project |                                  
+|---------------------------------------------------|:-------------:|:------------:|
+|[Rt-net: replay-and-transfer network for class incremental object detection](https://link.springer.com/article/10.1007/s10489-022-03509-0)|Applied Intelligence, 2023|-|
+|[Continual detection transformer for incremental object detection](http://openaccess.thecvf.com/content/CVPR2023/html/Liu_Continual_Detection_Transformer_for_Incremental_Object_Detection_CVPR_2023_paper.html)|CVPR 2023|[Code](https://github.com/yaoyao-liu/CL-DETR)|
+|[Towards open world object detection](http://openaccess.thecvf.com/content/CVPR2021/html/Joseph_Towards_Open_World_Object_Detection_CVPR_2021_paper.html)|CVPR 2021|[Code](https://github.com/AIX-Coast-Defense-PIL/Towards-Open-World-Object-Detection)|
+|[Continual learning strategy in one-stage object detection framework based on experience replay for autonomous driving vehicle](https://www.mdpi.com/1424-8220/20/23/6777)|Sensors 2020|-|
+|[Augmented Box Replay: Overcoming Foreground Shift for Incremental Object Detection](http://openaccess.thecvf.com/content/ICCV2023/html/Liu_Augmented_Box_Replay_Overcoming_Foreground_Shift_for_Incremental_Object_Detection_ICCV_2023_paper.html)|ICCV 2023|-|
+|[One-shot replay: boosting incremental object detection via retrospecting one object](https://ojs.aaai.org/index.php/AAAI/article/view/25417)|AAAI 2023|-|
+|[Rodeo: Replay for online object detection](https://arxiv.org/abs/2008.06439)|arXiv 2020|[Code](https://github.com/manoja328/rodeo)|
+|[Utilizing incremental branches on a one-stage object detection framework to avoid catastrophic forgetting](https://link.springer.com/article/10.1007/s00138-022-01284-z)|MVA 2022|-|
+|[An end-to-end architecture for class-incremental object detection with knowledge distillation](https://ieeexplore.ieee.org/abstract/document/8784755/)|ICME 2019|-|
+|[Incremental few-shot instance segmentation](http://openaccess.thecvf.com/content/CVPR2021/html/Ganea_Incremental_Few-Shot_Instance_Segmentation_CVPR_2021_paper.html)|CVPR 2021|[Code](https://github.com/danganea/iMTFA)|
+
+
+
+### Model Based
+
+| Paper                                             |  Published in | Code/Project |                                  
+|---------------------------------------------------|:-------------:|:------------:|
+|[Incremental learning of single-stage detectors with mining memory neurons](https://ieeexplore.ieee.org/abstract/document/8780739/)|ICCC 2018|-|
+|[Diode: dilatable incremental object detection](https://www.sciencedirect.com/science/article/pii/S0031320322007233)|PR 2023|-|
+|[Lstd: A low-shot transfer detector for object detection](https://ojs.aaai.org/index.php/AAAI/article/view/11716)|AAAI 2018|-|
+|[Few-shot object detection via feature reweighting](http://openaccess.thecvf.com/content_ICCV_2019/html/Kang_Few-Shot_Object_Detection_via_Feature_Reweighting_ICCV_2019_paper.html)|ICCV 2019|[Code](https://github.com/bingykang/Fewshot_Detection)|
+|[Meta-learning-based incremental few-shot object detection](https://ieeexplore.ieee.org/abstract/document/9452164/)|TCSVT 2021|[Code](https://github.com/Tongji-MIC-Lab/ML-iFSOD)|
+|[Sylph: A hypernetwork framework for incremental few-shot object detection](http://openaccess.thecvf.com/content/CVPR2022/html/Yin_Sylph_A_Hypernetwork_Framework_for_Incremental_Few-Shot_Object_Detection_CVPR_2022_paper.html)|CVPR 2022|-|
+|[Incremental few-shot object detection](http://openaccess.thecvf.com/content_CVPR_2020/html/Perez-Rua_Incremental_Few-Shot_Object_Detection_CVPR_2020_paper.html)|CVPR 2020|-|
+|[Few-shot batch incremental road object detection via detector fusion](https://openaccess.thecvf.com/content/ICCV2021W/AVVision/html/Tambwekar_Few-Shot_Batch_Incremental_Road_Object_Detection_via_Detector_Fusion_ICCVW_2021_paper.html)|ICCVW 2021|-|
+|[Context-transformer: Tackling object confusion for few-shot detection](https://ojs.aaai.org/index.php/AAAI/article/view/6957)|AAAI 2020|[Code](https://github.com/Ze-Yang/Context-Transformer)|
+|[Incremental learning of object detection with output merging of compact expert detectors](https://ieeexplore.ieee.org/abstract/document/9527693/)|ICoIAS 2021|-|
+|[Continual object detection via prototypical task correlation guided gating mechanism](http://openaccess.thecvf.com/content/CVPR2022/html/Yang_Continual_Object_Detection_via_Prototypical_Task_Correlation_Guided_Gating_Mechanism_CVPR_2022_paper.html)|CVPR 2022|-|
+|[Dlcft: Deep linear continual fine-tuning for general incremental learning](https://link.springer.com/chapter/10.1007/978-3-031-19827-4_30)|ECCV 2022|-|
+|[Side-tuning: a baseline for network adaptation via additive side networks](https://link.springer.com/chapter/10.1007/978-3-030-58580-8_41)|ECCV 2020|-|
+|[Any-shot object detection](https://openaccess.thecvf.com/content/ACCV2020/html/Rahman_Any-Shot_Object_Detection_ACCV_2020_paper.html)|ACCV 2020|-|
+|[Incremental-detr: Incremental few-shot object detection via self-supervised learning](https://ojs.aaai.org/index.php/AAAI/article/view/25129)|AAAI 2023|-|
+|[Ow-detr: Open-world detection transformer](http://openaccess.thecvf.com/content/CVPR2022/html/Gupta_OW-DETR_Open-World_Detection_Transformer_CVPR_2022_paper.html)|CVPR 2022|[Code](https://github.com/akshitac8/OW-DETR)|
+
+### Regularization Based
+
+| Paper                                             |  Published in | Code/Project |                                  
+|---------------------------------------------------|:-------------:|:------------:|
+|[Exploring object relation in mean teacher for cross-domain detection](http://openaccess.thecvf.com/content_CVPR_2019/html/Cai_Exploring_Object_Relation_in_Mean_Teacher_for_Cross-Domain_Detection_CVPR_2019_paper.html)|CVPR 2019|[Code](https://github.com/caiqi/mean-teacher-cross-domain-detection)|
+|[Unbiased teacher for semi-supervised object detection](https://arxiv.org/abs/2102.09480)|ICLR 2021|[Code](https://github.com/facebookresearch/unbiased-teacher)|
+|[Unbiased mean teacher for cross-domain object detection](http://openaccess.thecvf.com/content/CVPR2021/html/Deng_Unbiased_Mean_Teacher_for_Cross-Domain_Object_Detection_CVPR_2021_paper.html)|CVPR 2021|[Code](https://github.com/kinredon/umt)|
+|[Cross domain object detection by target-perceived dual branch distillation](http://openaccess.thecvf.com/content/CVPR2022/html/He_Cross_Domain_Object_Detection_by_Target-Perceived_Dual_Branch_Distillation_CVPR_2022_paper.html)|CVPR 2022|-|
+|[Cross-domain adaptive teacher for object detection](http://openaccess.thecvf.com/content/CVPR2022/html/Li_Cross-Domain_Adaptive_Teacher_for_Object_Detection_CVPR_2022_paper.html)|CVPR 2022|[Code](https://github.com/facebookresearch/adaptive_teacher)|
+|[Target-relevant knowledge preservation for multisource domain adaptive object detection](http://openaccess.thecvf.com/content/CVPR2022/html/Wu_Target-Relevant_Knowledge_Preservation_for_Multi-Source_Domain_Adaptive_Object_Detection_CVPR_2022_paper.html)|CVPR 2022|-|
+|[Multi-source domain adaptation for object detection](http://openaccess.thecvf.com/content/ICCV2021/html/Yao_Multi-Source_Domain_Adaptation_for_Object_Detection_ICCV_2021_paper.html)|ICCV 2021|[Code](https://github.com/jh-Han777/Multi_Source_Domain_Adaptation_for_Object_Detection)|
+|[2pcnet: Two-phase consistency training for day-to-night unsupervised domain adaptive object detection](http://openaccess.thecvf.com/content/CVPR2023/html/Kennerley_2PCNet_Two-Phase_Consistency_Training_for_Day-to-Night_Unsupervised_Domain_Adaptive_Object_CVPR_2023_paper.html)|CVPR 2023|-|
+|[Balanced ranking and sorting for class incremental object detection](https://ieeexplore.ieee.org/abstract/document/9747449/)|ICASSP 2022|-|
+|[Incdet: In defense of elastic weight consolidation for incremental object detection](https://ieeexplore.ieee.org/abstract/document/9127478/)|TNNLS 2020|-|
+|[ifs-rcnn: An incremental few-shot instance segmenter](http://openaccess.thecvf.com/content/CVPR2022/html/Nguyen_iFS-RCNN_An_Incremental_Few-Shot_Instance_Segmenter_CVPR_2022_paper.html)|CVPR 2022|[Code](https://github.com/ducminhkhoi/iFS-RCNN)|
+
+### Optimization Based
+
+| Paper                                             |  Published in | Code/Project |                                  
+|---------------------------------------------------|:-------------:|:------------:|
+|[Towards generalized and incremental few-shot object detection](https://arxiv.org/abs/2109.11336)|arXiv 2021|-|
+|[Incremental object detection via meta-learning](https://ieeexplore.ieee.org/abstract/document/9599446/)|TPAMI 2021|[Code](https://github.com/JosephKJ/iOD)|
+|[Fast hierarchical learning for few-shot object detection](https://ieeexplore.ieee.org/abstract/document/9981327/)|IROS 2022|[Code](https://github.com/yihshe/fast-hierarchical-learning-for-fsod)|
+
+
+
+
+
 
 
 
