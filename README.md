@@ -29,20 +29,22 @@ If you find our work useful in your research, please consider citing:
 ```
 
 ## Menu
-- [Vision-Language Pre-training Methods](#Out-of-domain-benchmark)
-  - [Pre-training with Contrastive Objective](#pre-training-with-contrastive-objective)
-  - [Pre-training with Generative Objective](#pre-training-with-generative-objective)
-  - [Pre-training with Alignment Objective](#pre-training-with-alignment-objective)
-- [Vision-Language Model Transfer Learning Methods](#vision-language-model-transfer-learning-methods)
-  - [Transfer with Prompt Tuning](#transfer-with-prompt-tuning)
-    - [Transfer with Text Prompt Tuning](#transfer-with-text-prompt-tuning)
-    - [Transfer with Visual Prompt Tuning](#transfer-with-visual-prompt-tuning)
-    - [Transfer with Text and Visual Prompt Tuning](#transfer-with-text-and-visual-prompt-tuning)
-  - [Transfer with Feature Adapter](#transfer-with-feature-adapter)
-  - [Transfer with Other Methods](#transfer-with-other-methods)
-- [Vision-Language Model Knowledge Distillation Methods](#vision-language-model-knowledge-distillation-methods)
-  - [Knowledge Distillation for Object Detection](#knowledge-distillation-for-object-detection)
-  - [Knowledge Distillation for Semantic Segmentation](#knowledge-distillation-for-semantic-segmentation)
+- [Out of domain Benchmark](#Out-of-domain-benchmark)
+  - [Data Manipulation](#Data-manipulation)
+  - [Feature Learning](#Feature-learning)
+  - [Optimization Strategy](#Optimization-strategy)
+- [Out of Category Benchmark](#Out-of-category-benchmark)
+  - [Discriminant](#Discriminant)
+  - [Side Information](#Side-information)
+  - [Arbitrary Information](#Arbitrary-information)
+- [Malicious Data Benchmark](#Malicious-data-benchmark)
+  - [Adversarial Training](#Adversarial-training)
+  - [Model Robust Inference](#Model-robust-inference)
+- [Incremental Data Benchmark](#Incremental-data-benchmark)
+  - [Replay Based](#Replay-based)
+  - [Model Based](#Model-based)
+  - [Regularization Based](#Regularization-based)
+  - [Optimization Based](#Optimization-based)
 
 ## Out of Domain Benchmark
 
