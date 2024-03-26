@@ -37,8 +37,8 @@ If you find our work useful in your research, please consider citing:
   - [Discriminant](#Discriminant)
   - [Side Information](#Side-information)
   - [Arbitrary Information](#Arbitrary-information)
-- [Malicious Data Benchmark](#Malicious-data-benchmark)
-  - [Adversarial Training](#Adversarial-training)
+- [Robust Learning Benchmark](#Robust-learning-benchmark)
+  - [Adversarial Training Paradigm](#Adversarial-training-paradigm)
   - [Model Robust Inference](#Model-robust-inference)
 - [Incremental Data Benchmark](#Incremental-data-benchmark)
   - [Replay Based](#Replay-based)
@@ -162,9 +162,9 @@ If you find our work useful in your research, please consider citing:
 |[DetCLIP: Dictionary-enriched visual-concept paralleled pre-training for open-world detection](https://proceedings.neurips.cc/paper_files/paper/2022/hash/3ba960559212691be13fa81d9e5e0047-Abstract-Conference.html)|NIPS 2022|-|
 |[DetCLIPv2: Scalable open-vocabulary object detection pre-training via word-region alignment](http://openaccess.thecvf.com/content/CVPR2023/html/Yao_DetCLIPv2_Scalable_Open-Vocabulary_Object_Detection_Pre-Training_via_Word-Region_Alignment_CVPR_2023_paper.html)|CVPR 2023|-|
 
-## Malicious Data Benchmark
+## Robust Learning Benchmark
 
-### Adversarial Training
+### Adversarial Training Paradigm
 
 | Paper                                             |  Published in | Code/Project |                                  
 |---------------------------------------------------|:-------------:|:------------:|
@@ -197,7 +197,7 @@ If you find our work useful in your research, please consider citing:
 
 
 
-## Incremental Data Benchmark
+## Incremental Learning Benchmark
 
 ### Replay Based
 
