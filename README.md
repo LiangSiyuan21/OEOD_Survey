@@ -1,8 +1,6 @@
-# Benchmark of Object Detectors in the Open Environment 
+# Object Detectors in the Open Environment: Challenges, Solutions, and Outlook
 This is the repository of **Object Detectors in the Open Environment: Challenges, Solutions, and Outlook**. For details, please refer to:
-
-**Object Detectors in the Open Environment: Challenges, Solutions, and Outlook**  
- [[Paper](https://arxiv.org/abs/2403.16271)]
+[[Paper](https://arxiv.org/abs/2403.16271)]
  
 [![arXiv](https://img.shields.io/badge/arXiv-2403.16271-b31b1b.svg)](https://arxiv.org/abs/2403.16271) 
 [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://GitHub.com/Naereen/StrapDown.js/graphs/commit-activity) 
