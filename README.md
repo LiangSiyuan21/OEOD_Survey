@@ -1,10 +1,10 @@
-# OEOD_Survey
-This is the repository of **Vision Language Models for Vision Tasks: a Survey**, a systematic survey of VLM studies in various visual recognition tasks including image classification, object detection, semantic segmentation, etc. For details, please refer to:
+# Benchmark of Object Detectors in the Open Environment 
+This is the repository of **Object Detectors in the Open Environment: Challenges, Solutions, and Outlook**. For details, please refer to:
 
-**Vision-Language Models for Vision Tasks: A Survey**  
- [[Paper](https://arxiv.org/abs/2304.00685)]
+**Object Detectors in the Open Environment: Challenges, Solutions, and Outlook**  
+ [[Paper](https://arxiv.org/abs/2403.16271)]
  
-[![arXiv](https://img.shields.io/badge/arXiv-2304.00685-b31b1b.svg)](https://arxiv.org/abs/2304.00685) 
+[![arXiv](https://img.shields.io/badge/arXiv-2403.16271-b31b1b.svg)](https://arxiv.org/abs/2403.16271) 
 [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://GitHub.com/Naereen/StrapDown.js/graphs/commit-activity) 
 [![PR's Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat)](http://makeapullrequest.com)
 <!-- [![made-with-Markdown](https://img.shields.io/badge/Made%20with-Markdown-1f425f.svg)](http://commonmark.org) -->
@@ -15,16 +15,16 @@ This is the repository of **Vision Language Models for Vision Tasks: a Survey**,
 
 ## Abstract
 
-Most visual recognition studies rely heavily on crowd-labelled data in deep neural networks (DNNs) training, and they usually train a DNN for each single visual recognition task, leading to a laborious and time-consuming visual recognition paradigm. To address the two challenges, Vision Language Models (VLMs) have been intensively investigated recently, which learns rich vision-language correlation from web-scale image-text pairs that are almost infinitely available on the Internet and enables zero-shot predictions on various visual recognition tasks with a single VLM. This paper provides a systematic review of visual language models for various visual recognition tasks, including: (1) the background that introduces the development of visual recognition paradigms; (2) the foundations of VLM that summarize the widely-adopted network architectures, pre-training objectives, and downstream tasks; (3) the widely adopted datasets in VLM pre-training and evaluations; (4) the review and categorization of existing VLM pre-training methods, VLM transfer learning methods, and VLM knowledge distillation methods; (5) the benchmarking, analysis and discussion of the reviewed methods; (6) several research challenges and potential research directions that could be pursued in the future VLM studies for visual recognition.
+With the emergence of foundation models, deep learning-based object detectors have shown practical usability in closed set scenarios. However, for real-world tasks, object detectors often operate in open environments, where crucial factors (\eg, data distribution, objective) that influence model learning are often changing. The dynamic and intricate nature of the open environment poses novel and formidable challenges to object detectors. Unfortunately, current research on object detectors in open environments lacks a comprehensive analysis of their distinctive characteristics, challenges, and corresponding solutions, which hinders their secure deployment in critical real-world scenarios. This paper aims to bridge this gap by conducting a comprehensive review and analysis of object detectors in open environments. We initially identified limitations of key structural components within the existing detection pipeline and propose the open environment object detector challenge framework that includes four quadrants (\ie, out-of-domain, out-of-category, robust learning, and incremental learning) based on the dimensions of the data / target changes. For each quadrant of challenges in the proposed framework, we present a detailed description and systematic analysis of the overarching goals and core difficulties, systematically review the corresponding solutions, and benchmark their performance over multiple widely adopted datasets. In addition, we engage in a discussion of open problems and potential avenues for future research. This paper aims to provide a fresh, comprehensive, and systematic understanding of the challenges and solutions associated with open-environment object detectors, thus catalyzing the development of more solid applications in real-world scenarios.
 
 ## Citation
 If you find our work useful in your research, please consider citing:
 ```
-@article{zhang2023vision,
-  title={Vision-Language Models for Vision Tasks: A Survey},
-  author={Zhang, Jingyi and Huang, Jiaxing and Jin, Sheng and Lu, Shijian},
-  journal={arXiv preprint arXiv:2304.00685},
-  year={2023}
+@article{liang2024object,
+  title={Object Detectors in the Open Environment:Challenges, Solutions, and Outlook}, 
+  author={Siyuan Liang and Wei Wang and Ruoyu Chen and Aishan Liu and Boxi Wu and Ee-Chien Chang and Xiaochun Cao and Dacheng Tao},
+  eprint={2403.16271},
+  year={2024}
 }
 ```
 
